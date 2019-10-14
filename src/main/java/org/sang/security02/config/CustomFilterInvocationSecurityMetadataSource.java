@@ -1,8 +1,8 @@
 package org.sang.security02.config;
 
 import org.sang.security02.mapper.MenuMapper;
-import org.sang.security02.model.Menu;
-import org.sang.security02.model.Role;
+import org.sang.security02.bean.Menu;
+import org.sang.security02.bean.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.ConfigAttribute;
 import org.springframework.security.access.SecurityConfig;

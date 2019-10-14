@@ -1,4 +1,4 @@
-package org.sang.security02.model;
+package org.sang.security02.bean;
 
 public class Role {
     private Integer id;

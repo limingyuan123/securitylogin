@@ -1,7 +1,7 @@
 package org.sang.security02.service;
 
 import org.sang.security02.mapper.UserMapper;
-import org.sang.security02.model.User;
+import org.sang.security02.bean.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

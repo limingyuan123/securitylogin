@@ -3,10 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.sang.security02.mapper.MenuMapper">
-    <resultMap id="BaseResultMap" type="org.sang.security02.model.Menu">
+    <resultMap id="BaseResultMap" type="org.sang.security02.bean.Menu">
         <id property="id" column="id"/>
         <result property="pattern" column="pattern"/>
-        <collection property="roles" ofType="org.sang.security02.model.Role">
+        <collection property="roles" ofType="org.sang.security02.bean.Role">
             <id property="id" column="rid"/>
             <result property="name" column="rname"/>
             <result property="nameZh" column="rnameZh"/>
